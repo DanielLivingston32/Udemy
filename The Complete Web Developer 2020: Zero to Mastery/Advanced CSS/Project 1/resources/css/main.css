@@ -1,0 +1,29 @@
+.body {
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+  transition: all 1.5s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  font-family: "Life Savers", cursive;
+  border-bottom: 2px solid orange;
+  border-right: 2px solid orange;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 10px;
+}
